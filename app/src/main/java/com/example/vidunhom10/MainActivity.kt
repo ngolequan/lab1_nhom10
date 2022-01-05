@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
                 var so2 : Double = (etNumber2.text.toString()).toDouble()
                 var kq : Double = so1 + so2
                 txtketqua.text = kq.toString()
+                println("noi dung can sua")
 
             }
 
